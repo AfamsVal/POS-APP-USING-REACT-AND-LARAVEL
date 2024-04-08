@@ -33,5 +33,6 @@ Please install below dependency
 <p>6. <code>php artisan db:seed</code></p>
 <p>7. delete public/storage folder if exist and run <code>php artisan storage:link</code></p>
 <p>8. run backend server by <code>php artisan serve</code></p>
-<p>9. default email <code>superadmin@example.com</code> password <code>password</code></p>
+<p>9. run to add JWT secret to .env <code>php artisan jwt:secret</code></p>
+<p>10. default email <code>superadmin@example.com</code> password <code>password</code></p>
 <!-- https://www.youtube.com/watch?v=hvtcQE8Gshs -->
